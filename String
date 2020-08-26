@@ -1,0 +1,5 @@
+      invoke  active_record
+      create    db/migrate/20200814104048_create_client_dtos.rb
+      create    app/models/client_dto.rb
+      invoke    rspec
+      create      spec/models/client_dto_spec.rb
